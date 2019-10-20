@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #fff;
+    border-bottom: 0.5px solid rgb(228, 228, 228);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    max-width: 1010px;
+    margin: 0 auto;
+}
+
+.nav .logoMenu{
+    display: flex;
+}
+.nav .logoMenu img{
+    margin-top: 3px;
+}
+
+.wall {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 14px;
+}
+
+.nav i{
+    font-size: 1.7em;
+}
+
+.nav .iconMenu i {
+    margin: 0 5px;
+}
+
+
