@@ -24,8 +24,8 @@ body{
 }
 
 .story img{
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 2.7rem;
+    height: 2.7rem;
     border-radius: 50%;
     padding: 2.5px;
     background: linear-gradient(to right, rgb(193,53,132), rgb(252,175,69));
@@ -34,6 +34,12 @@ body{
 @media screen and (min-width: 600px){
     .stories {
         margin: 85px auto 24px;
+    } 
+}
+@media screen and (min-width: 400px){
+    .story img {
+        width: 3.5rem;
+        height: 3.5rem;
     } 
 }
 
