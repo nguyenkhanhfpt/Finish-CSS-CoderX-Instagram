@@ -1,3 +1,72 @@
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar-user{
+    display: none;
+}
+
+
+
+@media screen and (min-width: 1000px) {
+    .content {
+        flex-direction: row;
+        max-width: 935px;
+        margin: 120px auto 0;
+        justify-content: space-between;
+    }
+
+    .avatar-user{
+        display: block;
+        display: flex;
+    }
+    .avatar-user img{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+    }
+    .avatar-user p{
+        line-height: 5px;
+        margin-left: 10px;
+        color: gray;
+        font-size: 0.8rem;
+    }
+    .avatar-user p b{
+        color: black;
+        font-size: 1rem;
+    }
+    
+
+
+    .news-right{
+        order: 1;
+        width: 293px;
+    }
+    .news-right .stories {
+        flex-direction: column;
+        padding: 10px 20px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+    .story {
+        flex-direction: row;
+        margin-bottom: 8px;
+    }
+    .story img{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .story p{
+        margin-left: 10px;
+    }
+
+
+}
+
+
+
 
 .news {
     max-width: 600px;
